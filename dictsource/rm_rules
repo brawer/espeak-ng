@@ -1,0 +1,141 @@
+// Romansh grapheme-to-phoneme rules
+
+.group a
+	a	a
+	an (_	@n  // vegnan
+	ar (_	''a:  // visitar, zuppar
+	as (_	@s  // vegnas
+	atg (_	'atC	// patratg, malfatg, surtratg
+	au	aU
+	aus (_	'aUs  // donnegiaus
+	avel (_	'a:v@l  // vegnavel
+
+.group à
+	à	''a
+
+.group b
+	b	b
+	bb	b:
+
+.group c
+	c	k
+
+.group d
+	d	d
+	dd	d:
+	dad (_	d'a:d	// svaneivladad, societad
+	dads (_	d'a:ds	// svaneivladads, societads
+
+.group e
+	e	e
+	egl (_	'el^  // smarvegl, vegl
+	egla (_	'el^a  // vegla
+	eglas (_	'el^as  // veglas
+	ei	EI
+	ein (_	'EIn
+	etg (_	'e:tC	// temeletg, turpetg
+	etsch (_	'EtS	// cametsch, manetsch
+
+.group f
+	f	f
+	ff	f:
+
+.group g
+	g	g
+	gg	g:
+	gh	g
+	gi (A	dZ
+	gi (a_	dZ'i#  // [i] only if stressed
+	gì (a_	dZ'i#
+	gl	l^
+	gl (A	gl
+	gn	n^
+
+.group h
+	h
+
+.group i
+	i	I
+	in (_	'in	// Martin, Flurin, termin, zaclin
+	ir (_	'i:	// partir, vegnir
+	itg (_	'ItC	// Turitg
+	iu (_	'e:U	// past participles
+	ius (_	'e:Us	// past participles
+
+.group j
+	j	j
+
+.group k
+	k	k
+	kk	k:
+
+.group l
+	l	l
+
+.group m
+	m	m
+	mm	m:
+
+.group n
+	n	n
+	n (g	N
+	n (k	N
+
+.group o
+	o	O
+
+.group p
+	p	p
+	pp	p:
+	ph	f   // foreign words
+
+.group q
+	q	k
+	qu (A	kw
+	qui (A	kwj
+
+.group r
+	r	r
+
+.group s
+	s	s
+	ss	s:
+	sch	S
+	sm	Sm	// smarvegl
+	sp	Sp
+	st	St
+	sv	Zv	// svaneivladad, svanir, sveglarin, svelt
+
+.group t
+	t	t
+	tt	t:
+	tg	tC
+
+.group u
+	u	U
+	un (_	'Un
+	uns (_	'Uns
+	ur (_	'u:r	// rubadur, svapur, zercladur
+	urs (_	'u:rs
+
+.group v
+	v	v
+	vv	v:
+
+.group w
+	w	w2
+
+.group x
+	x	ks
+
+.group y
+	y	j
+	y (K	i   // foreign words
+
+.group z
+	z	ts
+
+.group
+	ñ	n^
+	ș	S
+	ş	S

@@ -1843,6 +1843,9 @@ include ph_pt_brazil
 phonemetable pt-pt pt
 include ph_portugal
 
+phonemetable rm base2
+include ph_romansh
+
 phonemetable ro base2
 include ph_romanian
 

@@ -1,0 +1,57 @@
+//====================================================
+//  Romansh
+//====================================================
+
+phoneme r
+  vcd alv flp rhotic
+  brkafter
+  ipa ɾ
+  lengthmod 3
+
+  IF nextPhW(isVowel) THEN
+    ChangePhoneme(**)
+  ENDIF
+
+  CALL base1/*
+endphoneme
+
+phoneme E
+  vwl starttype #e endtype #e
+  length 120
+  IF nextPh(*) THEN
+    length 135
+  ENDIF
+  FMT(vowel/e_mid2)
+endphoneme
+
+phoneme I
+  vwl starttype #i endtype #i
+  length 120
+  IF nextPh(*) THEN
+    length 135
+  ENDIF
+  IfNextVowelAppend(;)
+  FMT(vowel/ii)
+endphoneme
+
+phoneme I:
+  vwl starttype #i endtype #i
+  length 190
+  FMT(vowel/ii)
+endphoneme
+
+phoneme U
+  vwl starttype #u endtype #u
+  length 120
+  IF nextPh(*) THEN
+    length 135
+  ENDIF
+  FMT(vowel/uu)
+endphoneme
+
+phoneme aU
+  vwl starttype #a endtype #u
+  length 270
+  lng
+  FMT(vdiph/aau_6)
+endphoneme
